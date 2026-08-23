@@ -23,7 +23,7 @@ Experimental image processing project exploring what ordered (Bayer) dithering l
 | ![input](images/input.png) | ![normal dithering](images/normal.png) | ![sub-pixel dithering](images/subpixel.png) |
  >  **View at 100% scale.** These images must be seen at their actual pixel size —  Zoom to 100% (or open the raw file) before comparing to prevent your browser from downscaling or upscaling the images.
 
-**Closeup on the eye on a simulated pixel grid:**
+**Closeup of the eye on a simulated pixel grid:**
  
 | Normal dithering | Sub-pixel dithering |
 |---|---|
