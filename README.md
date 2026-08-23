@@ -9,7 +9,7 @@ Experimental image processing project exploring what ordered (Bayer) dithering l
 1. **Load & split** — reads the source image and splits it into separate R, G, and B channel matrices.
 2. **Shift each channel by a sub-pixel offset** — the red channel is shifted 1px right, the green channel is left unshifted, and the blue channel is shifted 1px left. This is the actual "sub-pixel" part: each channel is sampled from a slightly different position, echoing the physical R/G/B stripe layout of a real sub-pixel grid.
 3. **Linearize** — converts each channel's sRGB (gamma-encoded) values to linear light before any math is done, so the dither threshold comparison happens in the correct color space.
-4. **Downscale by 3×**
+4. **Downscale by 3×** — so that there's enough information at a sub-pixel level for the sub-pixel dithering to work.
 5. **Ordered dither (Bayer)** — each downscaled RGB channel is dithered.
 6. **Un-linearize** — the dithered value is converted back from linear light to sRGB.
 7. **Recombine** — the three dithered channels are merged back into a single RGB image and saved as `<filename> processed.png`.
