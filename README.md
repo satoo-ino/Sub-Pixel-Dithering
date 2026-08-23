@@ -16,7 +16,7 @@ Experimental image processing project exploring what ordered (Bayer) dithering l
 
 ## Examples
  
-*Same source image, processed with normal full-pixel dithering vs. sub-pixel dithering, plus close-ups on a simulated sub-pixel grid (made with `Simulate_Pixel.py`).*
+*Same source image, processed with normal full-pixel dithering vs. sub-pixel dithering, plus close-ups on a simulated sub-pixel grid (made with `Simulate-Pixel.py`).*
  
 | Input | Normal dithering | Sub-pixel dithering |
 |---|---|---|
@@ -31,11 +31,11 @@ Experimental image processing project exploring what ordered (Bayer) dithering l
  
 ## Scripts
  
-### `Sub-Pixel_Dithering.py`
+### `Sub-Pixel-Dithering.py`
 The main dithering tool. Run it from a folder containing your source images.
  
 ```
-python "Sub-Pixel_Dithering.py"
+python "Sub-Pixel-Dithering.py"
 ```
  
 - Lists all `.png` / `.jpg` / `.jpeg` files in the current directory — pick one by number.
@@ -43,11 +43,11 @@ python "Sub-Pixel_Dithering.py"
   - **steps** (default `1`) — number of quantization levels per channel.
   - **bayer** (default `8×8`) — size of the ordered-dither threshold matrix (`2`, `4`, `8`, or `16`).
 - Saves the result as `<filename> processed.png` in the same folder.
-### `Simulate_Pixel.py`
+### `Simulate-Pixel.py`
 Turns a flat image into a simulated RGB sub-pixel grid, for close-up comparisons.
  
 ```
-python Simulate_Pixel.py
+python Simulate-Pixel.py
 ```
  
 - Pick an image the same way as `Sub-Pixel-Dithering.py`.
