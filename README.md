@@ -61,6 +61,9 @@ python Simulate-Pixel.py
 pip install pillow numpy
 ```
  
+## Conclusion
+ 
+The effects of sub-pixel rendering and sub-pixel dithering operates at a scale smaller than a single full-color pixel, so the difference only becomes apparent when zooming into a small region like the closeups above. It's a comparison-dependent effect rather than something that jumps out on first glance, which makes this more of an exploration of what dithering looks like once it's decoupled from the full-color pixel grid than a technique with an obvious standalone payoff.
 
 
 
