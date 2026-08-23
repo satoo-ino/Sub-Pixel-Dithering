@@ -1,3 +1,4 @@
+#No Generative AI was used in the making of this.
 from PIL import Image
 from math import floor
 import numpy as np
