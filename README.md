@@ -47,7 +47,7 @@ python "sub_pixel_-_post_gamma_dithering.py"
 Turns a flat image into a simulated RGB sub-pixel grid, for close-up comparisons.
  
 ```
-python simulated.py
+python Simulate_Pixel.py
 ```
  
 - Pick an image the same way as `Sub-Pixel-Dithering.py`.
