@@ -29,7 +29,7 @@ Experimental image processing project exploring what ordered (Bayer) dithering l
 |---|---|
 | ![closeup normal dithering](images/closeup_normal.png) | ![closeup sub-pixel dithering](images/closeup_subpixel.png) |
  
- along the same edges.
+
  
 ## Scripts
  
