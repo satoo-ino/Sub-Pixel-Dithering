@@ -28,6 +28,7 @@ Experimental image processing project exploring what ordered (Bayer) dithering l
 | Normal dithering | Sub-pixel dithering |
 |---|---|
 | ![closeup normal dithering](images/closeup_normal.png) | ![closeup sub-pixel dithering](images/closeup_subpixel.png) |
+ There's a noticeable difference in the effective resolution of the curved shapes of the eye — the sub-pixel dithered version holds onto the curvature more cleanly, while the normal dithering shows more staircasing along the same edges.
  
 ## Scripts
  
